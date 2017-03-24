@@ -23,6 +23,16 @@
 		26BF421D1E84E52E002EF64E /* Networking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 26BF42181E84E4F9002EF64E /* Networking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		26BF424A1E84E941002EF64E /* AudioConverter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26BF42491E84E922002EF64E /* AudioConverter.framework */; };
 		26BF424B1E84E941002EF64E /* AudioConverter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 26BF42491E84E922002EF64E /* AudioConverter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		26BF426E1E84EBCE002EF64E /* NothingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26BF42651E84EBCE002EF64E /* NothingKit.framework */; };
+		26BF42751E84EBCE002EF64E /* NothingKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BF42741E84EBCE002EF64E /* NothingKitTests.swift */; };
+		26BF42771E84EBCE002EF64E /* NothingKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BF42671E84EBCE002EF64E /* NothingKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26BF427A1E84EBCE002EF64E /* NothingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26BF42651E84EBCE002EF64E /* NothingKit.framework */; };
+		26BF427B1E84EBCE002EF64E /* NothingKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 26BF42651E84EBCE002EF64E /* NothingKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		26BF42901E84EBDB002EF64E /* SomethingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26BF42871E84EBDB002EF64E /* SomethingKit.framework */; };
+		26BF42971E84EBDB002EF64E /* SomethingKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BF42961E84EBDB002EF64E /* SomethingKitTests.swift */; };
+		26BF42991E84EBDB002EF64E /* SomethingKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BF42891E84EBDB002EF64E /* SomethingKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26BF429C1E84EBDB002EF64E /* SomethingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26BF42871E84EBDB002EF64E /* SomethingKit.framework */; };
+		26BF429D1E84EBDB002EF64E /* SomethingKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 26BF42871E84EBDB002EF64E /* SomethingKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +99,48 @@
 			remoteGlobalIDString = 26BF422F1E84E89D002EF64E;
 			remoteInfo = AudioConverter;
 		};
+		26BF426F1E84EBCE002EF64E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26BF419F1E84E45D002EF64E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26BF42641E84EBCE002EF64E;
+			remoteInfo = NothingKit;
+		};
+		26BF42711E84EBCE002EF64E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26BF419F1E84E45D002EF64E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26BF41A61E84E45D002EF64E;
+			remoteInfo = Everything;
+		};
+		26BF42781E84EBCE002EF64E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26BF419F1E84E45D002EF64E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26BF42641E84EBCE002EF64E;
+			remoteInfo = NothingKit;
+		};
+		26BF42911E84EBDB002EF64E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26BF419F1E84E45D002EF64E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26BF42861E84EBDB002EF64E;
+			remoteInfo = SomethingKit;
+		};
+		26BF42931E84EBDB002EF64E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26BF419F1E84E45D002EF64E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26BF41A61E84E45D002EF64E;
+			remoteInfo = Everything;
+		};
+		26BF429A1E84EBDB002EF64E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26BF419F1E84E45D002EF64E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26BF42861E84EBDB002EF64E;
+			remoteInfo = SomethingKit;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -101,6 +153,8 @@
 				26BF424B1E84E941002EF64E /* AudioConverter.framework in Embed Frameworks */,
 				26BF421D1E84E52E002EF64E /* Networking.framework in Embed Frameworks */,
 				26BF41E51E84E46B002EF64E /* CoreKit.framework in Embed Frameworks */,
+				26BF429D1E84EBDB002EF64E /* SomethingKit.framework in Embed Frameworks */,
+				26BF427B1E84EBCE002EF64E /* NothingKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -126,6 +180,19 @@
 		26BF41E01E84E46B002EF64E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26BF42121E84E4F9002EF64E /* Networking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Networking.xcodeproj; path = ThirdParty/Networking/Networking.xcodeproj; sourceTree = "<group>"; };
 		26BF42441E84E922002EF64E /* AudioConverter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AudioConverter.xcodeproj; path = ThirdParty/AudioConverter/AudioConverter.xcodeproj; sourceTree = "<group>"; };
+		26BF424E1E84EB1B002EF64E /* Everything.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Everything.xcconfig; path = Everything/Everything.xcconfig; sourceTree = "<group>"; };
+		26BF42651E84EBCE002EF64E /* NothingKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NothingKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26BF42671E84EBCE002EF64E /* NothingKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NothingKit.h; sourceTree = "<group>"; };
+		26BF42681E84EBCE002EF64E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26BF426D1E84EBCE002EF64E /* NothingKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NothingKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26BF42741E84EBCE002EF64E /* NothingKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NothingKitTests.swift; sourceTree = "<group>"; };
+		26BF42761E84EBCE002EF64E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26BF42871E84EBDB002EF64E /* SomethingKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SomethingKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26BF42891E84EBDB002EF64E /* SomethingKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SomethingKit.h; sourceTree = "<group>"; };
+		26BF428A1E84EBDB002EF64E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26BF428F1E84EBDB002EF64E /* SomethingKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SomethingKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26BF42961E84EBDB002EF64E /* SomethingKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomethingKitTests.swift; sourceTree = "<group>"; };
+		26BF42981E84EBDB002EF64E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +203,8 @@
 				26BF424A1E84E941002EF64E /* AudioConverter.framework in Frameworks */,
 				26BF421C1E84E52E002EF64E /* Networking.framework in Frameworks */,
 				26BF41E41E84E46B002EF64E /* CoreKit.framework in Frameworks */,
+				26BF429C1E84EBDB002EF64E /* SomethingKit.framework in Frameworks */,
+				26BF427A1E84EBCE002EF64E /* NothingKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,17 +231,52 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		26BF42611E84EBCE002EF64E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26BF426A1E84EBCE002EF64E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26BF426E1E84EBCE002EF64E /* NothingKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26BF42831E84EBDB002EF64E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26BF428C1E84EBDB002EF64E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26BF42901E84EBDB002EF64E /* SomethingKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		26BF419E1E84E45D002EF64E = {
 			isa = PBXGroup;
 			children = (
+				26BF424E1E84EB1B002EF64E /* Everything.xcconfig */,
 				26BF41A91E84E45D002EF64E /* Everything */,
 				26BF41D01E84E46B002EF64E /* CoreKit */,
 				26BF42111E84E4DF002EF64E /* ThirdParty */,
 				26BF41BE1E84E45D002EF64E /* EverythingTests */,
 				26BF41DD1E84E46B002EF64E /* CoreKitTests */,
+				26BF42661E84EBCE002EF64E /* NothingKit */,
+				26BF42731E84EBCE002EF64E /* NothingKitTests */,
+				26BF42881E84EBDB002EF64E /* SomethingKit */,
+				26BF42951E84EBDB002EF64E /* SomethingKitTests */,
 				26BF41A81E84E45D002EF64E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -184,6 +288,10 @@
 				26BF41BB1E84E45D002EF64E /* EverythingTests.xctest */,
 				26BF41CF1E84E46B002EF64E /* CoreKit.framework */,
 				26BF41D71E84E46B002EF64E /* CoreKitTests.xctest */,
+				26BF42651E84EBCE002EF64E /* NothingKit.framework */,
+				26BF426D1E84EBCE002EF64E /* NothingKitTests.xctest */,
+				26BF42871E84EBDB002EF64E /* SomethingKit.framework */,
+				26BF428F1E84EBDB002EF64E /* SomethingKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -254,6 +362,42 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		26BF42661E84EBCE002EF64E /* NothingKit */ = {
+			isa = PBXGroup;
+			children = (
+				26BF42671E84EBCE002EF64E /* NothingKit.h */,
+				26BF42681E84EBCE002EF64E /* Info.plist */,
+			);
+			path = NothingKit;
+			sourceTree = "<group>";
+		};
+		26BF42731E84EBCE002EF64E /* NothingKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				26BF42741E84EBCE002EF64E /* NothingKitTests.swift */,
+				26BF42761E84EBCE002EF64E /* Info.plist */,
+			);
+			path = NothingKitTests;
+			sourceTree = "<group>";
+		};
+		26BF42881E84EBDB002EF64E /* SomethingKit */ = {
+			isa = PBXGroup;
+			children = (
+				26BF42891E84EBDB002EF64E /* SomethingKit.h */,
+				26BF428A1E84EBDB002EF64E /* Info.plist */,
+			);
+			path = SomethingKit;
+			sourceTree = "<group>";
+		};
+		26BF42951E84EBDB002EF64E /* SomethingKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				26BF42961E84EBDB002EF64E /* SomethingKitTests.swift */,
+				26BF42981E84EBDB002EF64E /* Info.plist */,
+			);
+			path = SomethingKitTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -262,6 +406,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				26BF41E11E84E46B002EF64E /* CoreKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26BF42621E84EBCE002EF64E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26BF42771E84EBCE002EF64E /* NothingKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26BF42841E84EBDB002EF64E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26BF42991E84EBDB002EF64E /* SomethingKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +443,8 @@
 				26BF41E31E84E46B002EF64E /* PBXTargetDependency */,
 				26BF421F1E84E52E002EF64E /* PBXTargetDependency */,
 				26BF424D1E84E941002EF64E /* PBXTargetDependency */,
+				26BF42791E84EBCE002EF64E /* PBXTargetDependency */,
+				26BF429B1E84EBDB002EF64E /* PBXTargetDependency */,
 			);
 			name = Everything;
 			productName = Everything;
@@ -344,6 +506,80 @@
 			productReference = 26BF41D71E84E46B002EF64E /* CoreKitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		26BF42641E84EBCE002EF64E /* NothingKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26BF427C1E84EBCE002EF64E /* Build configuration list for PBXNativeTarget "NothingKit" */;
+			buildPhases = (
+				26BF42601E84EBCE002EF64E /* Sources */,
+				26BF42611E84EBCE002EF64E /* Frameworks */,
+				26BF42621E84EBCE002EF64E /* Headers */,
+				26BF42631E84EBCE002EF64E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NothingKit;
+			productName = NothingKit;
+			productReference = 26BF42651E84EBCE002EF64E /* NothingKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		26BF426C1E84EBCE002EF64E /* NothingKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26BF427F1E84EBCE002EF64E /* Build configuration list for PBXNativeTarget "NothingKitTests" */;
+			buildPhases = (
+				26BF42691E84EBCE002EF64E /* Sources */,
+				26BF426A1E84EBCE002EF64E /* Frameworks */,
+				26BF426B1E84EBCE002EF64E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26BF42701E84EBCE002EF64E /* PBXTargetDependency */,
+				26BF42721E84EBCE002EF64E /* PBXTargetDependency */,
+			);
+			name = NothingKitTests;
+			productName = NothingKitTests;
+			productReference = 26BF426D1E84EBCE002EF64E /* NothingKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		26BF42861E84EBDB002EF64E /* SomethingKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26BF429E1E84EBDB002EF64E /* Build configuration list for PBXNativeTarget "SomethingKit" */;
+			buildPhases = (
+				26BF42821E84EBDB002EF64E /* Sources */,
+				26BF42831E84EBDB002EF64E /* Frameworks */,
+				26BF42841E84EBDB002EF64E /* Headers */,
+				26BF42851E84EBDB002EF64E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SomethingKit;
+			productName = SomethingKit;
+			productReference = 26BF42871E84EBDB002EF64E /* SomethingKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		26BF428E1E84EBDB002EF64E /* SomethingKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26BF42A11E84EBDB002EF64E /* Build configuration list for PBXNativeTarget "SomethingKitTests" */;
+			buildPhases = (
+				26BF428B1E84EBDB002EF64E /* Sources */,
+				26BF428C1E84EBDB002EF64E /* Frameworks */,
+				26BF428D1E84EBDB002EF64E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26BF42921E84EBDB002EF64E /* PBXTargetDependency */,
+				26BF42941E84EBDB002EF64E /* PBXTargetDependency */,
+			);
+			name = SomethingKitTests;
+			productName = SomethingKitTests;
+			productReference = 26BF428F1E84EBDB002EF64E /* SomethingKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -376,6 +612,28 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 26BF41A61E84E45D002EF64E;
 					};
+					26BF42641E84EBCE002EF64E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = M3FCT79SM9;
+						ProvisioningStyle = Automatic;
+					};
+					26BF426C1E84EBCE002EF64E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = M3FCT79SM9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 26BF41A61E84E45D002EF64E;
+					};
+					26BF42861E84EBDB002EF64E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = M3FCT79SM9;
+						ProvisioningStyle = Automatic;
+					};
+					26BF428E1E84EBDB002EF64E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = M3FCT79SM9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 26BF41A61E84E45D002EF64E;
+					};
 				};
 			};
 			buildConfigurationList = 26BF41A21E84E45D002EF64E /* Build configuration list for PBXProject "Everything" */;
@@ -403,8 +661,12 @@
 			targets = (
 				26BF41A61E84E45D002EF64E /* Everything */,
 				26BF41CE1E84E46B002EF64E /* CoreKit */,
+				26BF42641E84EBCE002EF64E /* NothingKit */,
+				26BF42861E84EBDB002EF64E /* SomethingKit */,
 				26BF41BA1E84E45D002EF64E /* EverythingTests */,
 				26BF41D61E84E46B002EF64E /* CoreKitTests */,
+				26BF426C1E84EBCE002EF64E /* NothingKitTests */,
+				26BF428E1E84EBDB002EF64E /* SomethingKitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -465,6 +727,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		26BF42631E84EBCE002EF64E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26BF426B1E84EBCE002EF64E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26BF42851E84EBDB002EF64E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26BF428D1E84EBDB002EF64E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -497,6 +787,36 @@
 			buildActionMask = 2147483647;
 			files = (
 				26BF41DF1E84E46B002EF64E /* CoreKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26BF42601E84EBCE002EF64E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26BF42691E84EBCE002EF64E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26BF42751E84EBCE002EF64E /* NothingKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26BF42821E84EBDB002EF64E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26BF428B1E84EBDB002EF64E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26BF42971E84EBDB002EF64E /* SomethingKitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -533,6 +853,36 @@
 			name = AudioConverter;
 			targetProxy = 26BF424C1E84E941002EF64E /* PBXContainerItemProxy */;
 		};
+		26BF42701E84EBCE002EF64E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26BF42641E84EBCE002EF64E /* NothingKit */;
+			targetProxy = 26BF426F1E84EBCE002EF64E /* PBXContainerItemProxy */;
+		};
+		26BF42721E84EBCE002EF64E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26BF41A61E84E45D002EF64E /* Everything */;
+			targetProxy = 26BF42711E84EBCE002EF64E /* PBXContainerItemProxy */;
+		};
+		26BF42791E84EBCE002EF64E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26BF42641E84EBCE002EF64E /* NothingKit */;
+			targetProxy = 26BF42781E84EBCE002EF64E /* PBXContainerItemProxy */;
+		};
+		26BF42921E84EBDB002EF64E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26BF42861E84EBDB002EF64E /* SomethingKit */;
+			targetProxy = 26BF42911E84EBDB002EF64E /* PBXContainerItemProxy */;
+		};
+		26BF42941E84EBDB002EF64E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26BF41A61E84E45D002EF64E /* Everything */;
+			targetProxy = 26BF42931E84EBDB002EF64E /* PBXContainerItemProxy */;
+		};
+		26BF429B1E84EBDB002EF64E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26BF42861E84EBDB002EF64E /* SomethingKit */;
+			targetProxy = 26BF429A1E84EBDB002EF64E /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -557,6 +907,7 @@
 /* Begin XCBuildConfiguration section */
 		26BF41C21E84E45D002EF64E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26BF424E1E84EB1B002EF64E /* Everything.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -607,6 +958,7 @@
 		};
 		26BF41C31E84E45D002EF64E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26BF424E1E84EB1B002EF64E /* Everything.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -752,6 +1104,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = M3FCT79SM9;
 				INFOPLIST_FILE = CoreKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -766,10 +1119,159 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = M3FCT79SM9;
 				INFOPLIST_FILE = CoreKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.smallsharptools.CoreKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Everything.app/Everything";
+			};
+			name = Release;
+		};
+		26BF427D1E84EBCE002EF64E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = M3FCT79SM9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = NothingKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smallsharptools.NothingKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		26BF427E1E84EBCE002EF64E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = M3FCT79SM9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = NothingKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smallsharptools.NothingKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		26BF42801E84EBCE002EF64E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = M3FCT79SM9;
+				INFOPLIST_FILE = NothingKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smallsharptools.NothingKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Everything.app/Everything";
+			};
+			name = Debug;
+		};
+		26BF42811E84EBCE002EF64E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = M3FCT79SM9;
+				INFOPLIST_FILE = NothingKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smallsharptools.NothingKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Everything.app/Everything";
+			};
+			name = Release;
+		};
+		26BF429F1E84EBDB002EF64E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = M3FCT79SM9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SomethingKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smallsharptools.SomethingKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		26BF42A01E84EBDB002EF64E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = M3FCT79SM9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SomethingKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smallsharptools.SomethingKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		26BF42A21E84EBDB002EF64E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = M3FCT79SM9;
+				INFOPLIST_FILE = SomethingKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smallsharptools.SomethingKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Everything.app/Everything";
+			};
+			name = Debug;
+		};
+		26BF42A31E84EBDB002EF64E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = M3FCT79SM9;
+				INFOPLIST_FILE = SomethingKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smallsharptools.SomethingKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Everything.app/Everything";
@@ -795,6 +1297,7 @@
 				26BF41C61E84E45D002EF64E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		26BF41C71E84E45D002EF64E /* Build configuration list for PBXNativeTarget "EverythingTests" */ = {
 			isa = XCConfigurationList;
@@ -803,6 +1306,7 @@
 				26BF41C91E84E45D002EF64E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		26BF41E61E84E46B002EF64E /* Build configuration list for PBXNativeTarget "CoreKit" */ = {
 			isa = XCConfigurationList;
@@ -811,6 +1315,7 @@
 				26BF41E81E84E46B002EF64E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		26BF41EA1E84E46B002EF64E /* Build configuration list for PBXNativeTarget "CoreKitTests" */ = {
 			isa = XCConfigurationList;
@@ -819,6 +1324,43 @@
 				26BF41EC1E84E46B002EF64E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26BF427C1E84EBCE002EF64E /* Build configuration list for PBXNativeTarget "NothingKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26BF427D1E84EBCE002EF64E /* Debug */,
+				26BF427E1E84EBCE002EF64E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26BF427F1E84EBCE002EF64E /* Build configuration list for PBXNativeTarget "NothingKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26BF42801E84EBCE002EF64E /* Debug */,
+				26BF42811E84EBCE002EF64E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26BF429E1E84EBDB002EF64E /* Build configuration list for PBXNativeTarget "SomethingKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26BF429F1E84EBDB002EF64E /* Debug */,
+				26BF42A01E84EBDB002EF64E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26BF42A11E84EBDB002EF64E /* Build configuration list for PBXNativeTarget "SomethingKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26BF42A21E84EBDB002EF64E /* Debug */,
+				26BF42A31E84EBDB002EF64E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
